@@ -27,3 +27,8 @@
 *.exe
 *.out
 *.app
+*.suo
+*.db
+*.opendb
+/TARP/TARP/TARP.vcxproj
+/TARP/TARP/TARP.vcxproj.filters
