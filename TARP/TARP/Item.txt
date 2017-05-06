@@ -1,0 +1,19 @@
+=====================Items===================
+ID: 1
+NAME: Potion
+DESCRIPTION: Heals User by 50 Health.
+COST: 50
+HEALTH: 50
+DAMAGE: 0
+DEFENCE: 0
+SPEED: 0
+=============================================
+ID: 2
+NAME: Sword
+DESCRIPTION: Weapon that boosts damage by 20.
+COST: 200
+HEALTH: 0
+DAMAGE: 20
+DEFENCE: 0
+SPEED: 0
+=============================================
