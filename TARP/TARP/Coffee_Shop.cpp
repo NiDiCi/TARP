@@ -21,8 +21,8 @@ int Coffee_Shop::Special(char name[], char drink[], std::string player_name, Pla
 	case 1: 
 		menu.pick_up_20();
 		std::cout << std::endl;
-		player->input_item(Items[0]);
-		player->display_backpack_content();
+		player->Player::input_item(Items[0]);
+		player->Player::display_backpack_content();
 		break;
 	case 2:
 		menu.order_drink(drink);
@@ -36,8 +36,8 @@ int Coffee_Shop::Special(char name[], char drink[], std::string player_name, Pla
 
 	case 1:
 		menu.pick_up_penny();
-		player->input_item(Items[1]);
-		player->display_backpack_content;
+		player->Player::input_item(Items[1]);
+		player->Player::display_backpack_content();
 		break;
 
 	case 2:
