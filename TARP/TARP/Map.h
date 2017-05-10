@@ -1,9 +1,11 @@
 #ifndef Map_h
 #define Map_h
 
+//Headers used in _h but also _cpp
 #include <stdio.h>
-#include "Space.h"
 #include <iostream>
+
+#include "Space.h"
 
 class World {
 

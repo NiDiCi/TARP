@@ -1,6 +1,7 @@
 #ifndef Center_h
 #define Center_h
 
+//Headers used in _h but also _cpp
 #include <stdio.h>
 #include "Space.h"
 

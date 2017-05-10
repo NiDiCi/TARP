@@ -1,11 +1,12 @@
 #ifndef Harry_potter_h
 #define Harry_potter_h
 
+//Headers used in _h but also _cpp
 #include <stdio.h>
+
 #include "Space.h"
 
-class Harry : public Space
-{
+class Harry : public Space {
 public:
 	Harry();
 	int Special(char name[], char drink[], std::string player_name, Player* player);

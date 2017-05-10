@@ -1,6 +1,7 @@
 #ifndef Player_h
 #define Player_h
 
+//Headers used in _h but also _cpp
 #include<stdio.h>
 #include<iostream>
 #include<string>

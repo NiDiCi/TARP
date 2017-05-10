@@ -1,7 +1,9 @@
 #ifndef Dr_Seuss_h
 #define Dr_Seuss_h
 
+//Headers used in _h but also _cpp
 #include <stdio.h>
+
 #include "Space.h"
 
 class Seuss : public Space {

@@ -1,7 +1,9 @@
 #ifndef Blank_h
 #define Blank_h
 
+//Headers used in _h but also _cpp
 #include <stdio.h>
+
 #include "Space.h"
 
 class Blank : public Space {

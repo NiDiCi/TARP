@@ -1,8 +1,10 @@
 #ifndef Coffee_Shop_h
 #define Coffee_Shop_h
 
+//Headers used in _h but also _cpp
 #include <stdio.h>
 #include <iostream>
+
 #include "Space.h"
 
 class Coffee_Shop : public Space {
