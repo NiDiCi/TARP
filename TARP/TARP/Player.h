@@ -2,11 +2,11 @@
 #define Player_h
 
 //Headers used in _h but also _cpp
-#include<stdio.h>
-#include<iostream>
-#include<string>
-#include<vector>
-#include<algorithm>
+#include <stdio.h>
+#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
 
 class Space;
 class Player {

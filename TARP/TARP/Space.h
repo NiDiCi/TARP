@@ -5,14 +5,20 @@
  * A Virtual Function is  makes its class a polymorphic base class. Derived classes
  * can override virtual functions. Virtual functions called through base class
  * pointers/references will be resolved at run-time. On the other hand we also have
- * Pure Virtual Functions A pure virtual function implicitly makes the class it is
- * defined for abstract (unlike in Java where you have a keyword to explicitly
+ * Pure Virtual Functions, a pure virtual function implicitly makes the class it's in
+ * defined as abstract (unlike in Java where you have a keyword to explicitly
  * declare the class abstract). Abstract classes cannot be instantiated. Derived
  * classes need to override/implement all inherited pure virtual functions. If they
  * do not, they too will become abstract.
+ * The reason for pure virtual fuctions making the class abstract is that, When we 
+ * create a pure virtual function in Abstract class, we reserve a slot for a function
+ * in the VTABLE, but doesn't put any address in that slot. 
+ * Hence the VTABLE will be incomplete. As the VTABLE for Abstract class is incomplete, 
+ * hence the compiler will not let the creation of object for such class and will 
+ * display an errror message whenever you try to do so.
  * * * */
 
-// this is include gaurds
+// this is include gaurds, and they protect against mutiple instances of an include
 #ifndef Space_h
 #define Space_h
 

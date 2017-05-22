@@ -49,4 +49,4 @@ int main() {
 	} while (menu_choice != 2);
 
 	return 0;
-}
+};
