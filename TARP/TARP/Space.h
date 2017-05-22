@@ -25,15 +25,17 @@
 #include "Player.h"
 #include "Menu.h"
 
-
+/* Abstract class */
 class Space {
 
 	friend class Map;
 	friend class Player;
+
 public:
+
 	Space();
 
-	//Pure virtual function
+	/* Pure virtual function */
 	virtual int Special(char name[], char drink[], std::string player_name, Player *player) = 0;
 };
 #endif // !Space_h

@@ -14,19 +14,22 @@ class Player {
 public:
 	Player();
 
+	// Player name
 	void set_player_name(std::string name);
 	std::string display_player_name();
 
+	// Player space / were player are
 	void set_player_space(Space *space_name);
 	Space *display_player_space();
 
+	// Items
 	void input_item(std::string item);
 	std::string get_item(int item_num);
 	int remove_item(std::string item);
 	bool check_item_available(std::string item);
 
+	// Backpack
 	void display_backpack_content();
-
 	int check_backpack_size();
 
 private:
